@@ -1,0 +1,187 @@
+/* Elements inside an <h2> that aren't a <span> with a class of `.foo`
+h2 :not(span.foo) {
+    color: red;
+  } 
+source: https://developer.mozilla.org/en-US/docs/Web/CSS/:not#examples
+
+div :not(ul.topnav) {
+  padding-top: ;
+  text-align: center;
+  line-height: 100px;
+}
+*/
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+
+body{
+    background: #EDEDED;
+    font-family: Urbanist;
+    text-decoration: none;
+}
+
+.error {
+  color: red;
+}
+
+.website-content {
+  text-align: center;
+  line-height: 100px;
+}
+
+.website-content h1 {
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.website-content p {
+  font-size: 36px;
+}
+
+.case {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  font-size: 18px;
+  margin: 20px;
+  width: 308px;
+  background-color: #ededed;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.8);
+  outline: 1px solid rgb(68, 70, 106, 0.2);
+}
+
+.view {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #009087;
+  background: #ededed;
+  padding: 10px 20px;
+  transition: 0.2s ease;
+  border-radius: 10px;
+  border: transparent;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.7);
+}
+
+.view:hover {
+  color: #ffffff;
+  background-color: rgba(0, 144, 135, 1);
+}
+
+.btn {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+  border-radius: 120px;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.8);
+}
+
+.btns a {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: rgba(0, 144, 135, 1);
+}
+
+.para {
+  /* border: 3px solid green; */
+  /*outline: solid 1px;*/
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  margin-top: 170px;
+  align-items: center;
+}
+
+.para .p1 {
+  font-size: 51px;
+}
+
+.para .p2 {
+  font-size: 29px;
+  margin-top: 45px;
+}
+
+.para button {
+  margin: 35px;
+  margin-top: 83px;
+  cursor: pointer;
+  border: none;
+}
+
+.para a {
+  background: #ededed;
+  color: #009087;
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.7);
+}
+
+.join {
+  padding: 23px 40px;
+}
+
+.create {
+  padding: 23px 23px;
+}
+
+.para a:hover {
+  transition: 0.2s ease;
+  color: #ffffff;
+  background-color: rgba(0, 144, 135, 1);
+}
+
+@media (max-width: 1171px) {
+  .para {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .para {
+    margin-top: 30px;
+  }
+}
+
+.cname {
+  border-bottom: #fafbfe solid;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cname p {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.card span {
+  color: #009087;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  width: 50%;
+  margin-inline: 10px;
+}
+

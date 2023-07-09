@@ -1,0 +1,174 @@
+:root {
+  --bs-success-rgb: 71, 222, 152 !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ededed;
+  line-height: 1;
+}
+
+.btn-info.text-light:hover,
+.btn-info.text-light:focus {
+  background: #009087;
+}
+.card-header {
+  background: #009087;
+}
+table,
+tbody,
+tfoot,
+thead,
+tr {
+  border-color: #00908631 !important;
+  border-style: solid;
+  border-width: 0.5px !important;
+  border-radius: 10px;
+}
+th,
+td {
+  -webkit-text-fill-color: black;
+  border-color: #00908631 !important;
+}
+#calendar {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fc-widget-header {
+  background-color: #009087;
+}
+.modal-header {
+  background-color: #009087;
+  border-style: hidden;
+}
+.event-form {
+  border-radius: 10px;
+}
+
+.savebt,
+.savebtn2 {
+  margin: 10px;
+}
+
+.savebtn {
+  border: none;
+  outline: 1px solid rgb(68, 70, 106, 0.2);
+  padding-inline: 20px;
+  padding-block: 10px;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  color: #009087;
+  background: #ededed;
+}
+
+.savebtn:hover {
+  transition: 0.2s ease;
+  color: #ededed;
+  background-color: #009087;
+}
+
+.savebtn2 {
+  border: none;
+  padding-inline: 20px;
+  padding-block: 10px;
+  box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  color: #ededed;
+  background: #009087;
+}
+
+.savebtn2:hover {
+  transition: 0.2s ease;
+  color: #009087;
+  background: #ededed;
+}
+
+textarea {
+  border: none;
+  width: 95%;
+  font-size: 20px;
+  padding-inline: 5%;
+  margin-top: 8px;
+  border-radius: 10px;
+  background: #ededed;
+  box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+    inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+select {
+  border: none;
+  width: 95%;
+  font-size: 20px;
+  padding-inline: 5%;
+  margin-top: 8px;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+    inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+input {
+  border: none;
+  width: 95%;
+  height: 40px;
+  font-size: 18px;
+  padding-inline: 5%;
+  margin-top: 8px;
+  border-radius: 10px;
+  background: #ededed;
+  box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+    inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid rgb(68, 70, 106, 0.3);
+}
+
+/* .cal, .cal::before, .cal::after{
+    box-sizing: border-box;
+}
+
+input [type="datetime-local"]{
+    background-color: green;
+    padding: 15px;
+} */
+
+.topnav li {
+  margin-block: 25px !important;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] + label {
+  margin-left: 10px; /* Add a left margin to the label */
+}
+
+.form-check-input {
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #009087;
+  border-color: none;
+}
+
+.container-top{
+  z-index: 2 !important;
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Urbanist');
+
+*{
+    background: #EDEDED;
+    font-family: Urbanist;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    padding-inline: 5%;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #EDEDED;
+    box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+           inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+input:focus{
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+}
+
+label{
+    font-size: 20px;
+}
+
+.details{
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.details > div{
+    width: 50%;
+}
+
+.details .content .title{
+    font-size: 53px;
+    font-weight: bold;
+}
+
+.details .content .para{
+    font-size: 40px;
+}
+
+.content{
+    margin-inline: 12%;
+    text-align: center;
+}
+
+.content p{
+    color: #44466B;
+}
+
+.content2{
+    margin-right: 12%;
+    background-color: transparent;
+}
+
+.form1{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+    border-radius: 10px;
+    box-shadow:  7px 7px 7px rgba(100, 104, 128, 0.6),
+                -7px -7px 7px rgba(255, 255, 255, 0.9);
+}
+
+.form1 > div{
+    margin: 15px;
+    width: 10%;
+}
+
+.form1 div:last-child input{ 
+    text-align:center;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+    border-radius: 10px;
+    box-shadow:  7px 7px 7px rgba(100, 104, 128, 0.6),
+                -7px -7px 7px rgba(255, 255, 255, 0.9);
+}
+
+.form2 button{
+    margin-block-end: 20px;
+    border: none;
+}
+
+.part1{ 
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.part1 > div{
+    margin: 10px;
+    width: 50%;
+}
+
+.part1 > div:first-child{
+    padding-right: 20px;
+}
+
+.part1 > div:last-child{
+    padding-right: 15px;
+}
+
+.part2{ 
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.part2 > div{
+    background-color: transparent;
+    margin: 5px;
+    width: 50%;
+}
+
+.part2 > div:first-child{
+    padding-right: 20px;
+}
+
+.part2 > div:last-child{
+    padding-right: 15px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 5px;
+}
+
+.loginMessage{
+    margin-block: 10px;
+    color: red;
+}
+
+.regbtn{
+    background-color: #009087;    
+    color: white;
+    width: 100%;
+    height: auto;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 33px;
+    border-radius: 10px;
+    box-shadow:  6px 6px 6px rgba(100, 104, 128, 0.6),
+                -6px -6px 6px rgba(255, 255, 255, 0.9);
+}
+
+.regbtn:hover{
+    transition: .2s ease;
+    color: #009087;
+    background-color: #EDEDED;
+}
+
+hr{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.lrdbtn{
+    background-color: #EDEDED;
+    color: #009087;
+    width: 100%;
+    height: auto;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px 33px;
+    border-radius: 10px;
+    box-shadow:  6px 6px 6px rgba(100, 104, 128, 0.6),
+                -6px -6px 6px rgba(255, 255, 255, 0.9);
+}
+
+.lrdbtn:hover{
+    transition: .2s ease;
+    color: #ffffff;
+    background-color: #009087
+}
+
+@media (max-width: 900px){
+    body{
+        margin-inline: 20px;
+    }
+
+    .details{
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .content2{
+        margin: 0;
+    }
+    
+    .details > div{
+        width: 100%;
+    }
+
+    label{
+        color: #44466B;
+    }
+
+    input, label{
+        font-size: 15px;
+    }
+    
+}

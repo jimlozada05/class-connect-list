@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.create-form #c{
+    position: absolute;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    overflow: hidden;
+    background: #EDEDED;
+    height: 100vh;
+}
+
+.container-top{
+    margin-bottom: 6vh;
+}
+
+label{
+    font-size: 20px;
+}
+
+label span{
+    font-size: 30px;
+}
+
+input:not(.class-pres){
+    border: none;
+    width: 97%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 3%;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #EDEDED;
+    box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+           inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+input:focus{
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+}
+
+.create-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.create-form{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-shadow:  5px 5px 7px rgba(100, 104, 128, 0.6), -5px -5px 7px rgba(255, 255, 255, 0.8);
+    outline: 1px solid rgb(68, 70, 106, 0.2);
+}
+
+.create-form div, button{
+    margin: 20px;
+}
+
+.class-pres{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: rgba(0, 144, 135, 1);
+}
+
+.class-pres:focus{
+    outline: none;
+}
+
+.create-form button{
+    color: rgba(0, 144, 135, 1);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px rgba(100, 104, 128, 0.6),
+    -5px -5px 7px rgba(255, 255, 255, 0.8);
+}
+
+.create-form button:hover{
+    color: #ffffff;
+    background-color: rgba(0, 144, 135, 1);
+}
+
+.details{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+    line-height: 35px;
+    letter-spacing: 1px;
+}

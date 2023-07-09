@@ -1,0 +1,176 @@
+.popup{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    width: 400px;
+    padding: 20px;
+    z-index: 2;
+  
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+    border-radius: 10px;
+    box-shadow:  7px 7px 7px rgba(100, 104, 128, 0.6),
+                  -7px -7px 7px rgba(255, 255, 255, 0.9);
+}
+
+input{
+    border: none;
+    box-sizing: border-box;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 3%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #EDEDED;
+    box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+            inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+label{
+    font-size: 20px !important;
+}
+  
+#add-to-do-form label{
+    font-size: 20px;
+}
+
+span{
+    margin: 10px;
+}
+
+textarea {
+    border: none;
+    box-sizing: border-box;
+    width: 95%;
+    font-size: 20px;
+    padding-block: 10px;
+    padding-left: 3%;
+    margin: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #ededed;
+    box-shadow: inset 4px 4px 5px rgba(100, 104, 128, 0.6),
+      inset -6px -6px 9px rgba(255, 255, 255, 1);
+}
+
+textarea:focus {
+    outline: 1px solid rgb(68, 70, 106, 0.3);
+}
+
+input[type="time"], input[type="date"]{
+    box-sizing: border-box;
+    width: 95%;
+    font-weight: bold;
+    font-size: 15px;
+    color: #009087;
+    background: #EDEDED;
+    padding: 10px 15px;
+    margin: 10px;
+    transition: .2s ease;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow:  5px 5px 7px rgba(100, 104, 128, 0.6), 
+                -5px -5px 7px rgba(255, 255, 255, 0.7);
+  }
+
+.listcase{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.listcard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    margin: 15px;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 7px rgba(100, 104, 128, 0.6), -5px -5px 7px rgba(255, 255, 255, 0.8);
+    outline: 1px solid rgb(68, 70, 106, 0.2);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.view{
+    margin: 0;
+    padding: 0;
+    padding-block: 12px;
+    width: 45%;
+}
+
+.listcard > div{
+    width: 100%;
+}
+
+.subjbuttons button{
+    margin-inline: 3px;
+}
+
+/* .subjbuttons{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+} */
+
+p, span{
+    background-color: transparent;
+    text-align: left;
+}
+
+.notetitle{
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    color: #009087;
+}
+
+.notedetails{ 
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 40px;
+    height: 60px;
+    overflow: auto;
+}
+
+.notedetails::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Handle */
+.notedetails::-webkit-scrollbar-thumb {
+    background: #009087;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+.notedetails::-webkit-scrollbar-track {
+    background: #EDEDED;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(100, 104, 128, 0.6),
+            inset -4px -4px 9px rgba(255, 255, 255, 1);
+}
+
+.fa-solid{
+    color: #009087;
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+}
+
+.dates{
+    height: 60px;
+}

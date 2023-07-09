@@ -1,0 +1,35 @@
+// INNER JOIN = join the same attributes from different tables 
+        // class table = class_id, class_name, class_code, school_year
+        // member table = member_type
+        echo '<div class="frame-4">';
+        echo '<div class="frame-40">';
+        // if (isset($value["class_name"])) {
+        //     echo '<p class="buhay-at-mga-sinulat-ni-rizal valign-text-middle urbanist-bold-gossamer-24px">' . $value["class_name"] . '</p><br>';
+        // }
+        // if (isset($value["class_code"])) {
+        //     echo '<div class="address valign-text-middle urbanist-bold-gossamer-20px">' . $value["class_code"] . '</div>';
+        // }
+        // echo '</div>';
+        // if (isset($value["school_year"])) {
+        //     echo '<div class="sevilla-maria-angelica valign-text-middle urbanist-semi-bold-black-24px">' . $value["school_year"] . '</div>';
+        // }
+
+        if (isset($value["class_name"])) {
+            echo '<p class="buhay-at-mga-sinulat-ni-rizal valign-text-middle urbanist-bold-gossamer-24px">' . $value["class_name"] . '</p><br>';
+        }
+        if (isset($value["class_code"])) {
+            echo '<div class="address valign-text-middle urbanist-bold-gossamer-20px">' . $value["class_code"] . '</div>';
+        }
+        echo '</div>';
+        if (isset($value["school_year"])) {
+            echo '<div class="sevilla-maria-angelica valign-text-middle urbanist-semi-bold-black-24px">' . $value["school_year"] . '</div>';
+        }
+
+        // DIFFERENT METHODS WILL APPLY FOR SCHEDULE
+        // echo '<div class="group-14-3">';
+        // if (isset($value["subject_details"])) {
+        //     echo '<div class="wed valign-text-middle urbanist-semi-bold-black-24px">' . ""$value["subject_details"]"" . '</div>';
+        // }
+        echo '</div>';
+        echo '</div>';
+        echo "<br>";
