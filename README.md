@@ -32,8 +32,3 @@ A centralized checklist for students, made by students.
 # 📁 Miscellaneous Directories
 1. CSS - contains all CSS files
 2. SQL - contains all SQL Queries of the project's modules
-
-# 🛠 WIP 
-      >> My List Module
-      >> Resources Module
-      >> Notification Module
