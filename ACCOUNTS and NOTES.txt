@@ -1,0 +1,34 @@
+email: albaobrian8@gmail.com
+password: Brianalbao
+
+email: albao.brian.122@gmail.com
+password: Albaobrian
+
+email: supersaiyan@science.com
+password: Somebuko
+
+NOTES(NAVIGATION):
+index.php - login form
+signup.php - signup form
+Database: users
+
+home.php - contains View Class, Add Class, Join Class links
+View-class.php - viewing class page (design) (accessible to all regardless of restriction in the meantime)
+    view-class-todo.php - previewing class notes
+        view-ctodo.php - viewing specific notes in a class
+    edit-class-todo.php - edit class notes
+    add-class-todo.php - add class notes
+add-class.php - adding class
+join-class.php - adding members and setting their access to a class (design)
+Database: classtodos, member(join-class.php), subject_class(add-class.php)
+
+calendar.php - view calendar (design)
+resources.php - view folders of resources (design)
+group.php - viewing group checklist (design)
+
+todos.php - viewing my list personal notes only you can see this
+add-todo.php - add personal note
+view-todo.php - view specific personal note
+edit-todo.php - edit personal note
+delete-todo.php - delete personal note
+Database: todos
